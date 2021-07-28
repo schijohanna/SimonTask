@@ -1,0 +1,54 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpd-file, coding: cp1252
+#date: Tue Jul 27 2021 00:52:13
+#--EXPERIMENT INFO
+#e mainfile: simon_task.py
+#e sha1: d40d14
+#e modules: 
+#e Experiment: Simon Task + Baseline
+#e no between subject factors
+#e Block 0: Baseline
+#e     block factors: Block = Baseline
+#e                    Trials = Practice
+#e     n trials: 1
+#e     trial factors: Position = [0]
+#e                    Colour = [Colour(red=200, green=200, blue=200)]
+#e                    
+#e Block 1: Default
+#e     block factors: Block = Default
+#e                    Trials = Practice
+#e     n trials: 4
+#e     trial factors: Position = [-300, 300]
+#e                    Colour = [Colour(red=0, green=0, blue=255), Colour(red=0, green=255, blue=0)]
+#e                    
+#e Block 2: Baseline
+#e     block factors: Block = Baseline
+#e                    Trials = Main
+#e     n trials: 2
+#e     trial factors: Position = [0]
+#e                    Colour = [Colour(red=200, green=200, blue=200)]
+#e                    
+#e Block 3: Default
+#e     block factors: Block = Default
+#e                    Trials = Main
+#e     n trials: 8
+#e     trial factors: Position = [-300, 300]
+#e                    Colour = [Colour(red=0, green=0, blue=255), Colour(red=0, green=255, blue=0)]
+#e                    
+#--SUBJECT INFO
+#s id: 8
+subject_id,Trials,Block,Colour,Position,Button,RT
+8,Practice,Baseline,"Colour(red=200, green=200, blue=200)",0,98,58
+8,Practice,Default,"Colour(red=0, green=0, blue=255)",300,106,1093
+8,Practice,Default,"Colour(red=0, green=0, blue=255)",-300,106,421
+8,Practice,Default,"Colour(red=0, green=255, blue=0)",300,106,176
+8,Practice,Default,"Colour(red=0, green=255, blue=0)",-300,106,206
+8,Main,Baseline,"Colour(red=200, green=200, blue=200)",0,98,268
+8,Main,Baseline,"Colour(red=200, green=200, blue=200)",0,98,202
+8,Main,Default,"Colour(red=0, green=255, blue=0)",300,106,416
+8,Main,Default,"Colour(red=0, green=255, blue=0)",-300,106,154
+8,Main,Default,"Colour(red=0, green=0, blue=255)",-300,106,285
+8,Main,Default,"Colour(red=0, green=0, blue=255)",300,106,94
+8,Main,Default,"Colour(red=0, green=255, blue=0)",300,106,185
+8,Main,Default,"Colour(red=0, green=255, blue=0)",-300,106,192
+8,Main,Default,"Colour(red=0, green=0, blue=255)",-300,106,178
+8,Main,Default,"Colour(red=0, green=0, blue=255)",300,106,263

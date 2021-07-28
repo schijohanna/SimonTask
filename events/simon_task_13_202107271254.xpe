@@ -1,0 +1,116 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpe-file, coding: cp1252
+#date: Tue Jul 27 2021 12:54:04
+#sha1: 2a0a0e
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-T4NIVQM', release='10', version='10.0.19041', machine='AMD64', processor='Intel64 Family 6 Model 142 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11242,design,log,
+#design: #exp: Simon Task + Baseline
+#design: #dvn: Trials,Block,Colour,Position,Button,RT
+#design: block_cnt,block_id,block_Trials,block_Block,trial_cnt,trial_id,Colour,Position
+#design: 0,0,Practice,Baseline,0,0,Colour(red=200, green=200, blue=200),0
+#design: 1,1,Practice,Default,0,0,Colour(red=0, green=255, blue=0),-300
+#design: 1,1,Practice,Default,1,3,Colour(red=0, green=0, blue=255),300
+#design: 1,1,Practice,Default,2,2,Colour(red=0, green=255, blue=0),300
+#design: 1,1,Practice,Default,3,1,Colour(red=0, green=0, blue=255),-300
+#design: 2,2,Main,Baseline,0,1,Colour(red=200, green=200, blue=200),0
+#design: 2,2,Main,Baseline,1,0,Colour(red=200, green=200, blue=200),0
+#design: 3,3,Main,Default,0,7,Colour(red=0, green=0, blue=255),300
+#design: 3,3,Main,Default,1,4,Colour(red=0, green=255, blue=0),-300
+#design: 3,3,Main,Default,2,5,Colour(red=0, green=0, blue=255),-300
+#design: 3,3,Main,Default,3,6,Colour(red=0, green=255, blue=0),300
+#design: 3,3,Main,Default,4,3,Colour(red=0, green=0, blue=255),300
+#design: 3,3,Main,Default,5,2,Colour(red=0, green=255, blue=0),300
+#design: 3,3,Main,Default,6,1,Colour(red=0, green=0, blue=255),-300
+#design: 3,3,Main,Default,7,0,Colour(red=0, green=255, blue=0),-300
+11243,design,logged,
+11243,Experiment,started
+11408,Stimulus,presented,13
+12065,Keyboard,received,32,wait
+12212,Stimulus,presented,14
+12712,Keyboard,received,32,wait
+12851,Stimulus,presented,15
+14081,Keyboard,received,32,wait
+14085,Stimulus,presented,0
+14878,Stimulus,presented,1
+14985,Keyboard,received,98,wait
+15112,Stimulus,presented,16
+16316,Keyboard,received,32,wait
+16321,Stimulus,presented,0
+16983,Stimulus,presented,2
+17094,Keyboard,received,106,wait
+17099,Stimulus,presented,0
+17591,Stimulus,presented,5
+17772,Keyboard,received,106,wait
+17777,Stimulus,presented,0
+18893,Stimulus,presented,4
+19032,Keyboard,received,106,wait
+19037,Stimulus,presented,0
+20228,Stimulus,presented,3
+20549,Keyboard,received,106,wait
+20678,Stimulus,presented,17
+25656,Keyboard,received,32,wait
+25792,Stimulus,presented,18
+26711,Keyboard,received,32,wait
+26715,Stimulus,presented,0
+27576,Stimulus,presented,6
+27733,Keyboard,received,98,wait
+27738,Stimulus,presented,0
+28887,Stimulus,presented,1
+28921,Keyboard,received,98,wait
+29007,Stimulus,presented,19
+29714,Keyboard,received,32,wait
+29718,Stimulus,presented,0
+30322,Stimulus,presented,10
+30428,Keyboard,received,102,wait
+30433,Stimulus,presented,0
+31406,Stimulus,presented,7
+31575,Keyboard,received,102,wait
+31579,Stimulus,presented,0
+32220,Stimulus,presented,8
+32381,Keyboard,received,102,wait
+32386,Stimulus,presented,0
+33533,Stimulus,presented,9
+33635,Keyboard,received,102,wait
+33639,Stimulus,presented,0
+34548,Stimulus,presented,5
+34559,Keyboard,received,102,wait
+34568,Stimulus,presented,0
+35378,Stimulus,presented,4
+35487,Keyboard,received,102,wait
+35492,Stimulus,presented,0
+36361,Stimulus,presented,3
+36408,Keyboard,received,102,wait
+36412,Stimulus,presented,0
+37255,Stimulus,presented,2
+37316,Keyboard,received,102,wait
+37316,Experiment,ended
+37346,Data,saved
+37360,Stimulus,presented,20
+40697,stdout,received,'** Expyriment Data Preprocessor **'
+40761,stdout,received,'found 13 subject_data sets'
+40771,stdout,received,"found 7 variables: ['subject_id', 'Trials', 'Block', 'Colour', 'Position', 'Button', 'RT']"
+40774,stdout,received,'   reading ./data\\simon_task_01_202107261845.xpd'
+40777,stdout,received,'   reading ./data\\simon_task_02_202107261846.xpd'
+40783,stdout,received,'   reading ./data\\simon_task_03_202107261849.xpd'
+40788,stdout,received,'   reading ./data\\simon_task_04_202107261850.xpd'
+40797,stdout,received,'   reading ./data\\simon_task_05_202107262012.xpd'
+40803,stdout,received,'   reading ./data\\simon_task_06_202107262337.xpd'
+40807,stdout,received,'   reading ./data\\simon_task_07_202107270049.xpd'
+40810,stdout,received,'   reading ./data\\simon_task_08_202107270052.xpd'
+40815,stdout,received,'   reading ./data\\simon_task_09_202107270056.xpd'
+40820,stdout,received,'   reading ./data\\simon_task_10_202107270059.xpd'
+40827,stdout,received,'   reading ./data\\simon_task_11_202107270101.xpd'
+40830,stdout,received,'   reading ./data\\simon_task_12_202107271221.xpd'
+40834,stdout,received,'   reading ./data\\simon_task_13_202107271254.xpd'
+40842,stderr,received,'Traceback (most recent call last):'
+40843,stderr,received,'  File "C:\\Users\\georg\\Documents\\Cognitive Science BSc\\6. Semester\\BasicPython\\Project\\SimonTask\\simon_task.py", line 143, in <module>'
+40847,stderr,received,'    expyriment.misc.data_preprocessing.write_concatenated_data(data_folder="./data", file_name="simon_task", output_file="data.csv")'
+40849,stderr,received,'  File "C:\\Users\\georg\\miniconda3\\lib\\site-packages\\expyriment\\misc\\data_preprocessing\\_data_preprocessing.py", line 207, in write_concatenated_data'
+40853,stderr,received,'    return Aggregator(data_folder=data_folder, file_name=file_name,'
+40855,stderr,received,'  File "C:\\Users\\georg\\miniconda3\\lib\\site-packages\\expyriment\\misc\\data_preprocessing\\_data_preprocessing.py", line 1034, in write_concatenated_data'
+40860,stderr,received,'    write_csv_file(filename=output_file, data=data[0], varnames=data[1],'
+40863,stderr,received,'  File "C:\\Users\\georg\\miniconda3\\lib\\site-packages\\expyriment\\misc\\data_preprocessing\\_data_preprocessing.py", line 146, in write_csv_file'
+40866,stderr,received,"    with open(filename, 'wb') as f:"
+40868,stderr,received,"PermissionError: [Errno 13] Permission denied: 'data.csv'"

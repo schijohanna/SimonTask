@@ -22,9 +22,9 @@ grey = expyriment.misc.constants.C_GREY
 circle_Radii = 40
 
 #positions
-left_Pos = -300
-right_Pos = 300
-
+left_Pos = -350
+right_Pos = 350
+Y_POS = 0
 #creating cross
 cross = expyriment.stimuli.FixCross()
 
@@ -38,11 +38,11 @@ enter_Press = expyriment.misc.constants.K_SPACE
 #preloading
 cross.preload()
 
-def set_up_trial(pos, col, cop):
+def set_up_trial(x_pos, col, cop):
     t = expyriment.design.Trial()
-    t.set_factor("Position", str(pos))
+    t.set_factor("Position", str(x_pos))
     t.set_factor("Colour", str(col))
-    c = expyriment.stimuli.Circle(circle_Radii, position=[pos,0], colour=col)
+    c = expyriment.stimuli.Circle(circle_Radii, position=[x_pos,Y_POS], colour=col)
     t.add_stimulus(c)
     block.add_trial(t, copies=cop)
     return block
@@ -54,9 +54,9 @@ for mp in mp_trials:
         if block == default:
             for pos in [left_Pos, right_Pos]:
                 for col in [green, blue]:
-                    block = set_up_trial(pos, col, 1)
+                    block = set_up_trial(pos, col, 5)
         elif block == baseline:
-            block = set_up_trial(0, grey, 1)
+            block = set_up_trial(0, grey, 15)
         block.shuffle_trials()
         exp.add_block(block)
     #exp.add_block(mp)
@@ -133,10 +133,9 @@ for block in exp.blocks:
                         trial.get_factor("Position"), button, rt])
     counter +=1
 
-expyriment.stimuli.TextScreen(heading="",text=post_exp, position=(0,0))
-exp.keyboard.wait(enter_Press)
 #exp.clock.wait(1000)
 #ending the experiment
-expyriment.control.end()
+expyriment.control.end(goodbye_text=post_exp)
 
-expyriment.misc.data_preprocessing.write_csv_file(data.csv, data, varnames=exp.data_variable_names, delimiter=', ')
+#saving data in a csv
+expyriment.misc.data_preprocessing.write_concatenated_data(data_folder="./data", file_name="simon_task", output_file="data.csv")

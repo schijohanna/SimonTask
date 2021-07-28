@@ -1,0 +1,95 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpe-file, coding: cp1252
+#date: Mon Jul 26 2021 18:50:55
+#sha1: 6c6d38
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-T4NIVQM', release='10', version='10.0.19041', machine='AMD64', processor='Intel64 Family 6 Model 142 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11297,design,log,
+#design: #exp: Simon Task + Baseline
+#design: #dvn: Trials,Block,Colour,Position,Button,RT
+#design: block_cnt,block_id,block_Block,block_Trials,trial_cnt,trial_id,Position,Colour
+#design: 0,0,Baseline,Practice,0,0,0,Colour(red=200, green=200, blue=200)
+#design: 1,1,Default,Practice,0,3,300,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,1,1,-300,Colour(red=0, green=0, blue=255)
+#design: 1,1,Default,Practice,2,0,-300,Colour(red=0, green=255, blue=0)
+#design: 1,1,Default,Practice,3,2,300,Colour(red=0, green=255, blue=0)
+#design: 2,2,Baseline,Main,0,0,0,Colour(red=200, green=200, blue=200)
+#design: 2,2,Baseline,Main,1,1,0,Colour(red=200, green=200, blue=200)
+#design: 3,3,Default,Main,0,0,-300,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,1,7,300,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,2,4,-300,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,3,5,-300,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,4,3,300,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,5,1,-300,Colour(red=0, green=0, blue=255)
+#design: 3,3,Default,Main,6,2,300,Colour(red=0, green=255, blue=0)
+#design: 3,3,Default,Main,7,6,300,Colour(red=0, green=255, blue=0)
+11298,design,logged,
+11298,Experiment,started
+11375,Stimulus,presented,13
+11477,Keyboard,received,32,wait
+11538,Stimulus,presented,14
+11656,Keyboard,received,32,wait
+11719,Stimulus,presented,15
+11805,Keyboard,received,32,wait
+11809,Stimulus,presented,0
+12748,Stimulus,presented,1
+12925,Keyboard,received,98,wait
+12985,Stimulus,presented,16
+13647,Keyboard,received,32,wait
+13651,Stimulus,presented,0
+14752,Stimulus,presented,5
+15601,Keyboard,received,106,wait
+15606,Stimulus,presented,0
+16534,Stimulus,presented,3
+16578,Keyboard,received,106,wait
+16582,Stimulus,presented,0
+17499,Stimulus,presented,2
+17635,Keyboard,received,106,wait
+17639,Stimulus,presented,0
+18225,Stimulus,presented,4
+18233,Keyboard,received,106,wait
+18275,Stimulus,presented,17
+18920,Keyboard,received,32,wait
+18979,Stimulus,presented,18
+19330,Keyboard,received,32,wait
+19334,Stimulus,presented,0
+19688,Stimulus,presented,1
+20195,Keyboard,received,98,wait
+20200,Stimulus,presented,0
+20781,Stimulus,presented,6
+21055,Keyboard,received,98,wait
+21096,Stimulus,presented,19
+21865,Keyboard,received,32,wait
+21869,Stimulus,presented,0
+22917,Stimulus,presented,2
+23113,Keyboard,received,106,wait
+23117,Stimulus,presented,0
+23855,Stimulus,presented,10
+23915,Keyboard,received,106,wait
+23918,Stimulus,presented,0
+24417,Stimulus,presented,7
+24457,Keyboard,received,106,wait
+24461,Stimulus,presented,0
+25333,Stimulus,presented,8
+25387,Keyboard,received,106,wait
+25391,Stimulus,presented,0
+25976,Stimulus,presented,5
+26141,Keyboard,received,106,wait
+26146,Stimulus,presented,0
+26564,Stimulus,presented,3
+26672,Keyboard,received,106,wait
+26676,Stimulus,presented,0
+27643,Stimulus,presented,4
+27733,Keyboard,received,106,wait
+27737,Stimulus,presented,0
+28330,Stimulus,presented,9
+28450,Keyboard,received,106,wait
+29999,Keyboard,received,32,wait
+29999,Experiment,ended
+30017,Data,saved
+30023,Stimulus,presented,21
+33249,stderr,received,'Traceback (most recent call last):'
+33249,stderr,received,'  File "C:\\Users\\georg\\Documents\\Cognitive Science BSc\\6. Semester\\BasicPython\\Project\\SimonTask\\simon_task.py", line 142, in <module>'
+33249,stderr,received,"    expyriment.misc.data_preprocessing.write_csv_file(data.csv, data, varnames=exp.data_variable_names, delimiter=', ')"
+33249,stderr,received,"NameError: name 'data' is not defined"
