@@ -1,0 +1,185 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpe-file, coding: cp1252
+#date: Fri Jul 30 2021 15:18:34
+#sha1: 023bdb
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-T4NIVQM', release='10', version='10.0.19041', machine='AMD64', processor='Intel64 Family 6 Model 142 Stepping 10, GenuineIntel')
+Time,Type,Event,Value,Detail,Detail2
+11169,design,log,
+#design: #exp: Simon Task + Baseline
+#design: #dvn: Trials,Block,Colour,Position,Button,RT
+#design: block_cnt,block_id,block_Block,block_Trials,trial_cnt,trial_id,Colour,Position
+#design: 0,0,Baseline,Practice,0,9,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,1,1,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,2,8,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,3,0,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,4,2,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,5,3,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,6,7,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,7,5,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,8,10,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,9,12,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,10,14,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,11,6,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,12,4,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,13,11,Colour(red=255, green=255, blue=255),0
+#design: 0,0,Baseline,Practice,14,13,Colour(red=255, green=255, blue=255),0
+#design: 1,1,Default,Practice,0,15,Colour(red=0, green=0, blue=255),350
+#design: 1,1,Default,Practice,1,11,Colour(red=0, green=255, blue=0),350
+#design: 1,1,Default,Practice,2,7,Colour(red=0, green=0, blue=255),-350
+#design: 1,1,Default,Practice,3,5,Colour(red=0, green=0, blue=255),-350
+#design: 1,1,Default,Practice,4,6,Colour(red=0, green=0, blue=255),-350
+#design: 1,1,Default,Practice,5,3,Colour(red=0, green=255, blue=0),-350
+#design: 1,1,Default,Practice,6,2,Colour(red=0, green=255, blue=0),-350
+#design: 1,1,Default,Practice,7,9,Colour(red=0, green=0, blue=255),-350
+#design: 1,1,Default,Practice,8,14,Colour(red=0, green=255, blue=0),350
+#design: 1,1,Default,Practice,9,18,Colour(red=0, green=0, blue=255),350
+#design: 1,1,Default,Practice,10,16,Colour(red=0, green=0, blue=255),350
+#design: 1,1,Default,Practice,11,13,Colour(red=0, green=255, blue=0),350
+#design: 1,1,Default,Practice,12,4,Colour(red=0, green=255, blue=0),-350
+#design: 1,1,Default,Practice,13,10,Colour(red=0, green=255, blue=0),350
+#design: 1,1,Default,Practice,14,0,Colour(red=0, green=255, blue=0),-350
+#design: 1,1,Default,Practice,15,1,Colour(red=0, green=255, blue=0),-350
+#design: 1,1,Default,Practice,16,8,Colour(red=0, green=0, blue=255),-350
+#design: 1,1,Default,Practice,17,19,Colour(red=0, green=0, blue=255),350
+#design: 1,1,Default,Practice,18,17,Colour(red=0, green=0, blue=255),350
+#design: 1,1,Default,Practice,19,12,Colour(red=0, green=255, blue=0),350
+#design: 2,2,Baseline,Main,0,29,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,1,13,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,2,1,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,3,3,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,4,10,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,5,18,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,6,12,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,7,27,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,8,28,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,9,4,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,10,11,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,11,26,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,12,23,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,13,24,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,14,2,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,15,9,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,16,20,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,17,15,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,18,14,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,19,21,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,20,6,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,21,22,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,22,8,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,23,16,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,24,5,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,25,17,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,26,19,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,27,7,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,28,0,Colour(red=255, green=255, blue=255),0
+#design: 2,2,Baseline,Main,29,25,Colour(red=255, green=255, blue=255),0
+#design: 3,3,Default,Main,0,39,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,1,10,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,2,27,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,3,23,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,4,2,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,5,28,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,6,6,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,7,34,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,8,0,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,9,19,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,10,4,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,11,5,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,12,38,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,13,8,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,14,31,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,15,7,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,16,32,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,17,1,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,18,3,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,19,26,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,20,15,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,21,30,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,22,35,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,23,13,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,24,14,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,25,16,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,26,29,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,27,25,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,28,11,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,29,36,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,30,33,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,31,9,Colour(red=0, green=0, blue=255),-350
+#design: 3,3,Default,Main,32,24,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,33,37,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,34,18,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,35,22,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,36,21,Colour(red=0, green=255, blue=0),-350
+#design: 3,3,Default,Main,37,12,Colour(red=0, green=255, blue=0),350
+#design: 3,3,Default,Main,38,17,Colour(red=0, green=0, blue=255),350
+#design: 3,3,Default,Main,39,20,Colour(red=0, green=255, blue=0),-350
+11173,design,logged,
+11173,Experiment,started
+11244,Stimulus,presented,13
+11984,Keyboard,received,32,wait
+12061,Stimulus,presented,14
+12536,Keyboard,received,32,wait
+12596,Stimulus,presented,15
+13701,Keyboard,received,32,wait
+13706,Stimulus,presented,0
+14741,Stimulus,presented,1
+14908,Keyboard,received,98,wait
+14912,Stimulus,presented,0
+15357,Stimulus,presented,1
+15568,Keyboard,received,98,wait
+15572,Stimulus,presented,0
+16550,Stimulus,presented,1
+23580,Keyboard,received,98,wait
+23585,Stimulus,presented,0
+24771,Stimulus,presented,1
+24812,Keyboard,received,98,wait
+24816,Stimulus,presented,0
+25199,Stimulus,presented,1
+25285,Keyboard,received,98,wait
+25289,Stimulus,presented,0
+26168,Stimulus,presented,1
+26261,Keyboard,received,98,wait
+26265,Stimulus,presented,0
+27106,Stimulus,presented,1
+27231,Keyboard,received,98,wait
+27235,Stimulus,presented,0
+27714,Stimulus,presented,1
+27895,Keyboard,received,98,wait
+27899,Stimulus,presented,0
+28706,Stimulus,presented,1
+28981,Keyboard,received,98,wait
+28986,Stimulus,presented,0
+29984,Stimulus,presented,1
+30158,Keyboard,received,98,wait
+30163,Stimulus,presented,0
+30671,Stimulus,presented,1
+30841,Keyboard,received,98,wait
+30845,Stimulus,presented,0
+31626,Stimulus,presented,1
+31738,Keyboard,received,98,wait
+31742,Stimulus,presented,0
+32307,Stimulus,presented,1
+32473,Keyboard,received,98,wait
+32478,Stimulus,presented,0
+33537,Stimulus,presented,1
+33682,Keyboard,received,98,wait
+33686,Stimulus,presented,0
+34115,Stimulus,presented,1
+34407,Keyboard,received,98,wait
+34474,Stimulus,presented,16
+35134,Keyboard,received,32,wait
+35137,Stimulus,presented,0
+35869,Stimulus,presented,5
+46267,Keyboard,received,106,wait
+46272,Stimulus,presented,0
+47366,Stimulus,presented,4
+47792,Keyboard,received,106,wait
+47797,Stimulus,presented,0
+48776,Stimulus,presented,3
+58529,Experiment,paused
+58543,Stimulus,presented,17
+59069,Keyboard,received,y,wait_char
+59069,Experiment,ended
+59096,Data,saved
+59101,Stimulus,presented,17

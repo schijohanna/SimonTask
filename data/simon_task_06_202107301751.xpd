@@ -1,0 +1,39 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpd-file, coding: cp1252
+#date: Fri Jul 30 2021 17:51:39
+#--EXPERIMENT INFO
+#e mainfile: simon_task.py
+#e sha1: 60392a
+#e modules: 
+#e Experiment: Simon Task + Baseline
+#e no between subject factors
+#e Block 0: Baseline
+#e     block factors: Block = Baseline
+#e                    Trials = Practice
+#e     n trials: 15
+#e     trial factors: Position = [0]
+#e                    Colour = [Colour(red=255, green=255, blue=255)]
+#e                    
+#e Block 1: Default
+#e     block factors: Block = Default
+#e                    Trials = Practice
+#e     n trials: 20
+#e     trial factors: Position = [-350, 350]
+#e                    Colour = [Colour(red=0, green=0, blue=255), Colour(red=0, green=255, blue=0)]
+#e                    
+#e Block 2: Baseline
+#e     block factors: Block = Baseline
+#e                    Trials = Main
+#e     n trials: 30
+#e     trial factors: Position = [0]
+#e                    Colour = [Colour(red=255, green=255, blue=255)]
+#e                    
+#e Block 3: Default
+#e     block factors: Block = Default
+#e                    Trials = Main
+#e     n trials: 40
+#e     trial factors: Position = [-350, 350]
+#e                    Colour = [Colour(red=0, green=0, blue=255), Colour(red=0, green=255, blue=0)]
+#e                    
+#--SUBJECT INFO
+#s id: 6
+subject_id,Trials,Block,Colour,Position,Button,RT
