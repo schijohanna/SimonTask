@@ -133,7 +133,7 @@ for block in exp.blocks:
                         trial.get_factor("Position"), button, rt])
     counter +=1
 
-#exp.clock.wait(1000)
+exp.clock.wait(1000)
 #ending the experiment
 expyriment.control.end(goodbye_text=post_exp)
 
