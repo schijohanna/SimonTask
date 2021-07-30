@@ -17,7 +17,7 @@ blocks = [baseline, default]
 #colours
 green = expyriment.misc.constants.C_GREEN
 blue = expyriment.misc.constants.C_BLUE
-grey = expyriment.misc.constants.C_GREY
+grey = expyriment.misc.constants.C_WHITE
 #creating stimuli
 circle_Radii = 40
 
@@ -29,8 +29,8 @@ Y_POS = 0
 cross = expyriment.stimuli.FixCross()
 
 #keyboard input
-left_Press = expyriment.misc.constants.K_f
-right_Press = expyriment.misc.constants.K_j
+left_Press = expyriment.misc.constants.K_d
+right_Press = expyriment.misc.constants.K_k
 neutral_Press = expyriment.misc.constants.K_b
 key_press = [left_Press, right_Press]
 
@@ -133,7 +133,7 @@ for block in exp.blocks:
                         trial.get_factor("Position"), button, rt])
     counter +=1
 
-exp.clock.wait(1000)
+
 #ending the experiment
 expyriment.control.end(goodbye_text=post_exp)
 
