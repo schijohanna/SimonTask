@@ -1,6 +1,4 @@
-"""
-This programm plots the data accumulated from the Simon Task
-"""
+"""This programm plots the data accumulated from the Simon Task"""
 
 import pandas as pd
 import seaborn as sns
@@ -19,7 +17,7 @@ data.loc[:,"Position"] = data["Position"].replace({
 })
 
 data.loc[:,"Colour"] = data["Colour"].replace({
-    "Colour(red=200, green=200, blue=200)": "white",
+    "Colour(red=255, green=255, blue=255)": "white",
     "Colour(red=0, green=255, blue=0)": "green",
     "Colour(red=0, green=0, blue=255)": "blue"
 })

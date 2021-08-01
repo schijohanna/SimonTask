@@ -1,6 +1,4 @@
-"""
-This programm runs an extended version of the Simon Task on Expyriment.
-"""
+"""This programm runs an extended version of the Simon Task on Expyriment"""
 
 import expyriment
 import random

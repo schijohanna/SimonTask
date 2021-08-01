@@ -1,0 +1,144 @@
+#Expyriment 0.10.0 (Python 3.8.5), .xpd-file, coding: cp1252
+#date: Sun Aug 01 2021 13:58:45
+#--EXPERIMENT INFO
+#e mainfile: simon_task.py
+#e sha1: d33571
+#e modules: 
+#e Experiment: Simon Task + Baseline
+#e no between subject factors
+#e Block 0: Baseline
+#e     block factors: Block = Baseline
+#e                    Trials = Practice
+#e     n trials: 15
+#e     trial factors: Position = [0]
+#e                    Colour = [Colour(red=255, green=255, blue=255)]
+#e                    
+#e Block 1: Default
+#e     block factors: Block = Default
+#e                    Trials = Practice
+#e     n trials: 20
+#e     trial factors: Position = [-350, 350]
+#e                    Colour = [Colour(red=0, green=0, blue=255), Colour(red=0, green=255, blue=0)]
+#e                    
+#e Block 2: Baseline
+#e     block factors: Block = Baseline
+#e                    Trials = Main
+#e     n trials: 30
+#e     trial factors: Position = [0]
+#e                    Colour = [Colour(red=255, green=255, blue=255)]
+#e                    
+#e Block 3: Default
+#e     block factors: Block = Default
+#e                    Trials = Main
+#e     n trials: 40
+#e     trial factors: Position = [-350, 350]
+#e                    Colour = [Colour(red=0, green=0, blue=255), Colour(red=0, green=255, blue=0)]
+#e                    
+#--SUBJECT INFO
+#s id: 9
+subject_id,Trials,Block,Colour,Position,Button,RT
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,464
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,133
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,36003
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,508
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,225
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,247
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,95
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,224
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,262
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,220
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,216
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,179
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,292
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,210
+9,Practice,Baseline,"Colour(red=255, green=255, blue=255)",0,98,219
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",-350,107,454
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",-350,107,426
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",350,107,453
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",350,100,423
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",-350,100,262
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",350,107,411
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",350,107,357
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",350,100,374
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",-350,100,497
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",350,100,502
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",-350,100,441
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",-350,107,495
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",350,107,338
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",-350,100,499
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",350,100,346
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",-350,100,461
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",350,100,531
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",-350,107,471
+9,Practice,Default,"Colour(red=0, green=255, blue=0)",350,107,493
+9,Practice,Default,"Colour(red=0, green=0, blue=255)",-350,107,369
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,246
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,275
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,218
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,258
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,240
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,244
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,235
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,286
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,314
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,260
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,279
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,243
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,246
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,274
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,299
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,266
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,276
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,234
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,272
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,251
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,246
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,235
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,237
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,287
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,338
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,271
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,267
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,252
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,221
+9,Main,Baseline,"Colour(red=255, green=255, blue=255)",0,98,220
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,372
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,329
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,376
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,440
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,381
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,335
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,588
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,463
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,423
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,497
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,615
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,514
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,390
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,386
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,365
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,398
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,478
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,416
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,518
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,475
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,389
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,583
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,381
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,544
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,465
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,282
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,556
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,289
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,423
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,601
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,378
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,526
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,304
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,439
+9,Main,Default,"Colour(red=0, green=0, blue=255)",350,107,385
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,107,534
+9,Main,Default,"Colour(red=0, green=255, blue=0)",350,100,401
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,459
+9,Main,Default,"Colour(red=0, green=255, blue=0)",-350,100,412
+9,Main,Default,"Colour(red=0, green=0, blue=255)",-350,100,389
